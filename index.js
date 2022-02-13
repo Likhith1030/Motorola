@@ -17,6 +17,10 @@ $("#main-nav a").on("click", function (event) {
     );
   }
 });
+//menu-bar toggle 
+$(".navbar-collapse a").click(function () {
+  $(".navbar-collapse").collapse("hide");
+});
 // Get the current year for the copyright
 $("#year").text(new Date().getFullYear());
 
